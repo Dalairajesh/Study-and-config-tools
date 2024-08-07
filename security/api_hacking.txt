@@ -1,0 +1,40 @@
+first Install Docker
+then install crapi from github repo
+then install Burpsuite
+add jwt editor extension in Burpsuite
+
+
+TOP TEN OWASP
+
+1 API1:2019 - BROKEN OBJECT LEVEL AUTHORIZATION (IDOR)
+  API tend to expose endpoints that handle object identifiers,
+  creating a wide attack surface level Access Control issue.
+  Object level autorization checks should be considered in every
+  function that access a data source using input from the user
+
+2 API2:2019 - BROKEN USER AUTHENTICATION
+  Authetication mechanisms are often implemented incorrectly,
+  allowing attackers to compromise authentication tokens or to
+  exploit implementation flaws to assume other user's identities
+  temporarily or permanently. Compromising the system's ability to
+  identify the client/user, compromises API Security overall
+
+3 API:2019 - EXCESSIVE DATA EXPOSURE
+  Looking forward to generic implementation, developers tend to
+  expose all object properties without considering their individual
+  sensitivity, relying on clients to perform the data filtering before
+  displaying it to the user.
+
+4 API:2019 - LACK OF RESOURCES & RATE LIMITING
+  Quite Often, API do not impose any restrictions on the size or
+  number of resources that can be requested by the client/user. not
+  only can this impact the API server performance, leading to
+  Denial of Service(DOS), but also leaves the door open to
+  authentication flaws such as brute force
+
+5 API:2019 - BROKEN FUNCTION LEVEL AUTHORIZATION
+  Complex access Control policies with different hierarchies,
+  groups, and roles, and an unclear separation between
+  administrative and regular functions, tend to lead to autorization
+  flaws. By exploiting these issues, attackers gain access to other
+  user's resources and/or administrative functions.
