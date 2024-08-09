@@ -38,3 +38,34 @@ TOP TEN OWASP
   administrative and regular functions, tend to lead to autorization
   flaws. By exploiting these issues, attackers gain access to other
   user's resources and/or administrative functions.
+
+6 API:2019 - MASS ASSIGNMENT
+ Binding client provided data(e.g JSON) to data models, without
+ proper properties filtering based on a whitelist, usually lead to
+ Mass Assignment. Either guessing Object properties, exploring
+ other API endpoints, reading the documentation, or providing
+ additional object properties in request payloads, allows attackers
+ to modify object properties they are not supposed to.
+
+8 API:2019 - INJECTION
+  Injection flaws, such as SQL, NoSQL, Command Injection, etc.,
+  occur when untrusted data is sent to an interpreter as part of a
+  Command or query. The attacker's malicious data can trick the
+  interpreter into executing unintended commands or accessing data
+  without proper authorization.
+
+9 BROKEN ACCESS CONTROL
+  Vulnerabilities that allow attackers to bypass access controls and gain
+  unauthorized access to resources or functionalities. This can occur when
+  access controls are not properly implemented or enforced, or when user
+  input is not properly validated.
+
+10 JSON WEB TOKEN
+  JWT Vulnerabilities typically arise due to flawed JWT handling within the
+  application itself. JWT attacks involve a user sending modified JWTs to
+  the server in order to achieve a malicious goal. Typically, this goal is to
+  bypass authentication and access controls by impersonating another
+  user who has already been authenticated.
+   
+   ALOGORIHM CONFUSING ATTACK
+   NONE ALOGORIHM ATTACK
