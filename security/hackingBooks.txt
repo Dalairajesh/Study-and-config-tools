@@ -4,6 +4,18 @@ Web Application hackers Hands Book
 
 
 
+NMAP TOOL VIDEO
+https://www.youtube.com/watch?v=f6gwr333RZM
+
+OPEN PORTS
+https://www.youtube.com/watch?v=wfiqVTntyTg
+
+WIFI HACKING
+https://www.youtube.com/watch?v=rYA_BbgqbP4
+
+VULNERABILITY ASSESSMENT
+https://www.youtube.com/watch?v=iLdsCnpMnTg
+
 
 // Best Books For Security medium Article
 https://medium.com/@garthhumphreys/hackers-guide-to-web-hacking-10-must-read-hacking-books-19a6ff7dfc9c
