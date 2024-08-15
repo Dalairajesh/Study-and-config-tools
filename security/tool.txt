@@ -1,0 +1,13 @@
+amass
+subfinder
+katana
+waybackurls
+
+Burpsuite
+metasploit
+NMAP
+wireshark
+shodan
+nessus
+sqlmap
+havij
