@@ -1,0 +1,30 @@
+API HACKING Burp extension
+1) AUTORIZE
+  Autorize is an extension that helps automate authorization testing, particu-
+larly for BOLA vulnerabilities You can add the tokens of UserA and UserB
+accounts and then perform a bunch of actions to create and interact with
+resources as UserA Also, Autorize can automatically attempt to interact with
+UserA’s resources with the UserB account Autorize will highlight any interesting
+requests that may be vulnerable to BOLA
+
+2) JSON WEB TOKENS
+The JSON Web Tokens extension helps you dissect and attack JSON Web Tokens
+We will use this extension to perform authorization attacks
+
+3) GRAPHQL RAIDER
+ GraphQL Raider is an extension that will aid us in our attacks against GraphQL
+APIs We will make the most out of this extension
+
+4) IP ROTATE
+ IP Rotate allows you to alter the IP address you are attacking from to indicate
+different cloud hosts in different regions This is extremely useful against API
+providers that simply block attacks based on IP address
+
+5)BYPASS WAF
+The WAF Bypass extension adds some basic headers to your requests in order
+to bypass some web application firewalls (WAFs) Some WAFs can be tricked
+by the inclusion of certain IP headers in the request WAF Bypass saves you
+from manually adding headers such as X-Originating-IP, X-Forwarded-For,
+X-Remote-IP, and X-Remote-Addr These headers normally include an IP address,
+and you can specify an address that you believe to be permitted, such as the
+target’s external IP address (127 0 0 1) or an address you suspect to be trusted

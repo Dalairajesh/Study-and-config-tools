@@ -11,3 +11,15 @@ shodan
 nessus
 sqlmap
 havij
+
+web application vulnerability scanners 
+Nessus, Qualys, OWASP ZAP, and
+Nikto.
+
+
+API HACKING TOOL
+Burp
+Swagger Jacker
+Postman 
+
+page 97
