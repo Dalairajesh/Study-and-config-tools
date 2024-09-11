@@ -295,3 +295,10 @@ improper rate limiting, and API injection.
 
 10)Business Logic Vulnerabilities
  
+
+
+
+
+Lab #1: Enumerating the User Accounts in a REST API
+ In this lab, our goal is simple: find the total number of user accounts
+in reqres.in, 

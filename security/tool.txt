@@ -21,5 +21,11 @@ API HACKING TOOL
 Burp
 Swagger Jacker
 Postman 
+Kiterunner (page 99 to download all wordlist)
+Nikto
+Wfuzz
+Arjun
 
-page 97
+Kiterunner Command
+show list of worlist Command:
+kr wordlist list
