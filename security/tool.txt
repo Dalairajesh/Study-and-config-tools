@@ -16,6 +16,8 @@ web application vulnerability scanners
 Nessus, Qualys, OWASP ZAP, and
 Nikto.
 
+Network scanners Tool
+Netdiscover, Nmap, Nikto
 
 API HACKING TOOL
 Burp
