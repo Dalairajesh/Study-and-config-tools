@@ -306,3 +306,6 @@ in reqres.in,
 
 LIST VULNERABLE APPLICATIONS
 OWASPcrAPI, OWASP Juice Shop, OWASP DevSlop’s Pixi, and Damn Vulnerable GraphQL. 
+
+
+Finding Sensitive Information with Chrome DevTools(page no 139 of API HAcking book)

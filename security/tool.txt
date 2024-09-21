@@ -31,3 +31,12 @@ Arjun
 Kiterunner Command
 show list of worlist Command:
 kr wordlist list
+
+
+TOOLS LEARN HOW TO USE FOR API HACKING
+ 1) FOR API RECON
+1)Kiterunner
+2)Chrome DevTool
+3)Gobuster
+4)ZAP OWASP
+5)Amass

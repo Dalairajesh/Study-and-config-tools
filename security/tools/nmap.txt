@@ -1,0 +1,94 @@
+1)Nmap Command Structure([IP, ScanType, ScanTiming, Output])
+
+2)Host Discovery (nmap -sn for host Discovery and by default add)
+ ROOT                                                LOCAL
+ -ICMP ECHO REQUEST                                  -SYN -443
+ -TCP SYN -443                                       -ACK-80   
+ -TCP ACk -80
+ -ICMP T.S(TIME STAMP) REQUEST
+ not host Discovery direct Scanning Command
+ nmap -Pn [ip]
+
+ Single IP
+ nmap [ip]
+
+ Subnet Range
+ nmap 1.2.3.4/8
+ IP Range
+ nmap 1.2.3.4-8
+ Specifi IP
+ nmap 1.2.3.4 5.6.7.8
+ Text File
+ nmap -iL host.txt
+
+ Domain
+ nmap a.com
+
+ 
+How Nmap Scanning Works
+Target
+Ports
+ 1)Single PORT
+ nmap 1.2.3.4 -p80
+ 2)Sequnetial PORT
+ nmap 1.2.3.4 -p20-30
+ 3)Distributed PORT
+ nmap 1.2.3.4 -p80,22,111
+ 4)Service Specific
+ nmap 1.2.3.4 -p http
+ 5)Protocol Specific
+ nmap 1.2.3.4 -p T:22,U:53
+ 6)ALL PORTS
+ nmap 1.2.3.4 -p-  (Total Port 65535)
+ 7)TOP PORTS
+ namp 1.2.3.4 --top-Ports 100
+Scan Type
+-TCP Connection Scan -ST
+-TCP SYN SCAN -SS
+-FIN SCAN -SF
+-XMAS SCAN -SX
+-NULL SCAN -SN
+-PING SCAN -SP
+-UDP SCAN -SU
+-ACK SCAN -SA
+Scan Status
+ -OPEN
+ -CLOSE
+ -FILTERED
+ -OPEN | FILTERED
+ -CLOSE | FILTERED
+ -UNFILTERED
+Scan Timings
+T0,T1,T2,T3,T4,T5
+bydefault T3(normal Speed)
+T0 Paranoid(Very Slow, FOR IDS Scan)
+T1 Sneaky FOR IDS Scan
+T2 Polite
+T4 Aggresive
+T5 Insane(Accuracy DROP)
+e.g nmap 1.2.3.4 -T1
+Host Timeout
+ e.g nmap --host-timeout 500ms 1.2.3.4
+ Scan Delay
+  nmap --scan-delay ls 1.2.3.4
+Output Formats
+ -oN -Normal Text OUTPUT
+ -oX  -XML FORMAT
+ -oG -GREP FORMAT
+ -oS - Script KIDDIE FORMAT STATE->St4t3
+Nmap Script Engine
+e.g nmap scanme.nmap.org --script http-headers
+SERVICE VERSION
+namp -sV 1.2.3.4
+OS Detection
+ nmap -O 1.2.3.4
+ VERBOSITY
+ nmap -v 1.2.3.4
+
+ nmap -A 1.2.3.4
+
+ SCAN IP v6
+ nmap -6 2001:00
+Timeout & Host Delay
+
+
