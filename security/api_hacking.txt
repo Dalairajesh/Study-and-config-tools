@@ -196,6 +196,8 @@ HMAC-SHA512(strong)
 The actual payload begins just below x-response-time; it provides the browser with the
 HTML needed to render the web page.
 
+x-access-token[Header]
+
 
 API INSECURITIES
 1)Broken Object Level Authorization
@@ -309,3 +311,36 @@ OWASPcrAPI, OWASP Juice Shop, OWASP DevSlop’s Pixi, and Damn Vulnerable GraphQ
 
 
 Finding Sensitive Information with Chrome DevTools(page no 139 of API HAcking book)
+
+
+
+--------------PRACTICAL STEP BY STEP------------------------
+
+PASSIVE RECON
+intitle:"api" site:"coinbase.com"
+inurl:"/apip/v1" site:microsoft.com
+intitle:json site:ebay.com
+
+
+ACTIVE RECON
+Nmap
+nmap -sV -sC 127.0.0.1
+nmap -p- 127.0.0.1
+
+Amass command
+amass enum -list
+
+amass enum -active -d crapi.apisec.ai
+
+amass enaum -active -d microsoft.com |grep api
+
+GoBuster command
+ sudo apt-get install gobuster
+ 
+ gobuster dir -u http://127.0.0.1:8888 -w /usr/share/wordlists/dirbuster-list-2.3-medium.txt --wildcard -b 200
+ 
+ 
+ Kiterunner command
+
+ Nikito Command
+ nikto -h http://127.0.0.1:8888

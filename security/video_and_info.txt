@@ -1,0 +1,9 @@
+Linux Privilege Escalation (https://www.youtube.com/watch?v=5Un3ffzokJQ)
+
+https://medium.com/@matthias-held/vampi-vulnerable-api-write-up-and-walk-through-3cce519e5e96
+
+https://github.com/arainho/awesome-api-security?tab=readme-ov-file(IMPORTNAT LINK API HACKING)
+
+https://apisecurity.io/(News Letter ANd Blog)
+
+https://dsopas.github.io/MindAPI/references/(references for API)
