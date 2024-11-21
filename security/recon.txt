@@ -1,0 +1,31 @@
+CIDR(Classes Inter-Domain Routing) is an IP address allocation method that improves data routing efficiency on the internet
+
+ASN(Autonomous System Number) is a way to represent a collection of IPs and who owns them. The IP address pool is spread across five
+Regional Internet Registries(RIRs) AFRINIC, APNIC, ARIN,LACNIC and RIPENCC
+
+
+arin whois-> whois query
+mxtoolbox.com
+ipaddressguide.com/cidr
+bgp.he.net
+viewdns.info
+
+lobseg.com br (IMP website)
+
+find all ip range use ->Angryip or nmap
+
+
+SUBDOMAIN HUNTING
+
+1) Find as many subdomain we can
+2) Remove the duplicates entry
+3) Sort our the live subdomains - webserver fingerprint
+4) Screenshot
+
+crt.sh(useful find subdomain)
+virustotal(find subdomain)
+chaos project discovery(find subdomain IMP)
+subfinder(find subdomain)
+
+httpx | httpx-toolkit in kali (used check website is active or not)
+ffuf
