@@ -1,0 +1,47 @@
+🔹 Foundation Level (Basic to Intermediate)
+📘 "The Art of Problem Solving, Volume 1" – Richard Rusczyk & Sandor Lehoczky
+
+Great for beginners transitioning into problem-solving.
+Covers algebra, number theory, and geometry with an Olympiad-style approach.
+📘 "How to Solve It" – George Pólya
+
+A classic book on mathematical thinking and heuristics.
+Helps develop intuition for approaching complex problems.
+📘 "Mathematical Circles" – Dmitri Fomin, Sergey Genkin, & Ilia Itenberg
+
+Introduces out-of-the-box problem-solving techniques.
+Useful for high school students preparing for Olympiads.
+🔹 Intermediate Level (Olympiad & Competition Focused)
+📘 "Problem-Solving Strategies" – Arthur Engel
+
+A must-read for contest mathematics, covering Olympiad-level strategies.
+Includes hundreds of problems with detailed solutions.
+📘 "A Problem Book in Mathematical Analysis" – G.N. Berman
+
+Best for mastering calculus and real analysis problems.
+Good for JEE Advanced and Olympiad aspirants.
+📘 "Introduction to Algebra" – Richard Rusczyk
+
+Perfect for advanced algebra problem-solving.
+Used in Math Olympiad training worldwide.
+🔹 Advanced Level (For High-Level Thinkers)
+📘 "Principles and Techniques in Combinatorics" – Chen Chuan Chong & Koh Khee Meng
+
+Focuses on combinatorial problem-solving techniques.
+Excellent for Olympiads and research-level problems.
+📘 "An Excursion in Mathematics" – M.R. Modak, S.A. Katre, V.V. Acharya
+
+Used in Indian Mathematical Olympiad (INMO) training.
+Covers number theory, algebra, and combinatorics.
+📘 "Functional Equations" – Christopher G. Small
+
+Helps master functional equations, a tricky area in advanced math contests.
+Bonus: If You Love Pure Mathematics
+🔹 "Concrete Mathematics" – Donald Knuth (For combinatorics, number theory, and algorithms)
+🔹 "Problem-Solving Through Problems" – Loren C. Larson (Challenging problems for advanced learners)
+
+📌 Which one should you start with?
+
+Beginner? Start with "The Art of Problem Solving Vol. 1".
+Want better problem-solving strategies? Read "How to Solve It".
+Preparing for Olympiads? Go for Arthur Engel's "Problem-Solving Strategies".

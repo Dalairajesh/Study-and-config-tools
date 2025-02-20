@@ -40,3 +40,7 @@ TOOLS LEARN HOW TO USE FOR API HACKING
 3)Gobuster
 4)ZAP OWASP
 5)Amass
+
+
+
+https://github.com/dirtycoder0124/XSS-Automation(IMP TOOL)(https://www.youtube.com/watch?v=ms0fqwOBHv0)

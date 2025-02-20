@@ -18,8 +18,8 @@ find all ip range use ->Angryip or nmap
 SUBDOMAIN HUNTING
 
 1) Find as many subdomain we can
-2) Remove the duplicates entry
-3) Sort our the live subdomains - webserver fingerprint
+2) Remove the duplicates entry(sort filename | uniq > uniquedomain.txt | wc -l)
+3) Sort our the live subdomains- webserver fingerprint
 4) Screenshot
 
 crt.sh(useful find subdomain)
@@ -29,3 +29,121 @@ subfinder(find subdomain)
 
 httpx | httpx-toolkit in kali (used check website is active or not)
 ffuf
+One of all
+Screenshoting -Eyewitness tool
+Directory Bruteforce(ffuf & dirsearch tool)
+
+Alternate of ShuffleDns(puredns,massdna, altdns)
+
+
+https://github.com/ayadim/Nuclei-bug-hunter(Nuclei Template Link)
+find js links(katana, subjs tool)(DAY 12 Video) katana -u domainname -jc | grep ".js$"
+katana -list filename -jc -v | grep ".js$"  > finalfilekatana.txt
+katana -list rapydfinal.txt -jc -silent | grep ".js$" > rapydjskatana.txt
+SecretFinder tool use to find secret in js files  (cat filename | while read url; do python3 SecretFinder/secretFinder.py -i $url -o cli > secrets.txt; done)
+Mantra
+
+
+Github Recon
+find github dork list
+gitDork Tool
+gitgraber Tool
+trufflehog Tool
+
+
+FIND leaked S3 bucket Tools
+lazys3
+s3Scanner
+grayhatwarfare website to find bucket
+
+Nmap cheat Sheet
+https://www.stationx.net/nmap-cheat-sheet/
+
+1 To collect as many IP address of a target
+2 Do a Port scan & find services and open ports and look for possible bugs
+3 Do a reverse DNS
+4 Find some juice info/bug
+
+mapicdr Tool
+dnsx Tool find domain name
+naabu Tool port scanning fast
+massscan Tool(https://cheatsheet.haax.fr/network/port-scanning/masscan_cheatsheet/)
+rustscan tool (Modern day port scanner)
+sandMap Tool
+sacncannon Tool
+
+Nmap Service scanning
+Nmap Scripting Engine
+
+
+CROSS SITE SCRIPTING(XSS)
+ XSS FIND?
+ 1 At any search form
+ 2 
+
+ XSS TYPES
+ 1 Reflected XSS
+ 2 Stored XSS
+ 3 Dom XSS
+ 4 Blind XSS
+ 
+ CSP BY PASS(EXPLORE)(cobalt.io/blog/csp-and-bypasses)
+ bxss tool for Blind XSS
+
+ https://web.archive.org/cdx/search/cdx?url=*.yoti.com%2F*&output=text&fl=original&collapse=urlkey   (find sensitive INFORMATION)
+
+
+ Low Hanging Fruits Vulnerability
+ 1)Broken Link Hijacking
+ 2)Missing SPF Record
+ 3) Origin IP Disclosure
+ 4) Session not expiring after logout
+ 5) Long password DOS attack
+
+
+ Host Header Injection
+ 1) Open Redirection Vuln(redirecting victim to a hacker owner/controlled or malicious websites like any phishing/malware website)
+ 2) Web Cache Poisioning attack
+ 3) Password Reset Poisioning attack
+ 4) XSS attack
+ 5) SSRF
+
+ SSRF
+ check parameter
+ dest php_info callback id file page url uri
+ SSRF : Regular SSRF | Blind SSRF
+ SSRF Tool
+ 1)ngrok
+ 2)SSRFmap
+ pipedream check request for SSRF
+
+ SSRF Videos and Report
+ https://www.youtube.com/watch?v=90AdmqqPo1Y&t=27s
+
+
+ SSRF Lab
+ https://application.security/free-application-security-training/server-side-request-forgery-in-capital-one
+ https://learn.snyk.io/lesson/ssrf-server-side-request-forgery/
+
+
+
+URL validation bypass cheat sheet(https://portswigger.net/web-security/ssrf/url-validation-bypass-cheat-sheet)
+https://github.com/harsh-bothra/learn365(IMP for Learning)
+
+
+https://github.com/streaak/keyhacks(API key Exploit)
+
+
+
+------------------------------------BLOG-----------------------
+
+https://www.hackingarticles.in/
+https://infosecwriteups.com/
+https://vickieli.dev/
+https://www.intigriti.com/blog
+https://portswigger.net/blog
+
+
+
+----------For Hacking Practice------------------------
+https://www.hackthissite.org/
